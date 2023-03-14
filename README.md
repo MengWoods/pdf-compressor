@@ -18,6 +18,9 @@ File size (bytes):      15114015----> 31638
 Page count:             23 --------> 4
 ```
 
+Below is a glance of the process, from left to right: origin file -> compressed file -> compressed file with font size 5.
+![](./files/introduction.png)
+
 ## Requirements
 
 In Python 3.X envrionment, install reqirements by `pip install -r requirements.txt`
@@ -36,3 +39,7 @@ Below lists all arguments meaning:
 '-i', '--input-files', required=True, nargs='+', help="Input PDF files name(s), add space between two files"
 '-f', '--font-size', default=10, help="Font size of the output PDF"
 ```
+
+## Additions
+
+- Post issue if you find bug, star the project if it helps. Thanks for your contributions!
