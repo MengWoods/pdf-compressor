@@ -13,7 +13,7 @@ Page count:             23 --------> 15
 ```
 By setting the font size smaller to 5:
 ```bash
-$ python main.py -i symmetry.pdf -f 5
+$ python main.py -i input.pdf -f 5
 File size (bytes):      15114015----> 31638
 Page count:             23 --------> 4
 ```
