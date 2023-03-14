@@ -29,3 +29,10 @@ In Python 3.X envrionment, install reqirements by `pip install -r requirements.t
     ```
     python main.py -i input.pdf
     ```
+
+Below lists all arguments meaning:
+```
+'-b', '--base-path', default='./files', type=str, help='Base path to the PDF files for processing'
+'-i', '--input-files', required=True, nargs='+', help="Input PDF files name(s), add space between two files"
+'-f', '--font-size', default=10, help="Font size of the output PDF"
+```
