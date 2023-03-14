@@ -73,7 +73,7 @@ class pdfCompressor:
             result_num_pages = len(pdf.pages)
         origin_file_size = os.path.getsize(self.path_to_file)
         result_file_size = os.path.getsize(self.path_to_result)
-        print(f'File size (bytes):\t{origin_file_size}----> {result_file_size}')
+        print(f'File size (KB):\t\t{origin_file_size/1000}----> {result_file_size/1000}')
         print(f'Page count: \t\t{origin_num_pages} --------> {result_num_pages}')
         print('=========================================')
         print('[INFO] Result is saved to:', self.path_to_result)
