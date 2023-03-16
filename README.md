@@ -3,9 +3,9 @@ Compress PDF file's pages and size. It helps you try the free-version [ChatPDF](
 
 ## Introduction
 
-A light-weight tool to compress PDF file's pages and size. The processing loses origin file's format, only the text information is saved in the compressed result.
+A light-weight tool to compress PDF file's pages and size. The compressing loses origin file's format, only the text information is saved in the compressed result.
 
-With default font size 10, the compressing result looks like:
+With default font size 10, the compressing effect looks like:
 ```bash
 $ python main.py -i input.pdf
 File size (KB):         15114.015----> 45.828
@@ -43,4 +43,4 @@ Below lists all arguments meaning:
 
 ## Additions
 
-- Post issue if you find bug, star the project if it helps. Thanks for your contributions!
+- Open an issue if you meet problem, considering star the project if it helps. Thanks for your contributions!
