@@ -1,5 +1,5 @@
 # pdf-compressor
-Compress PDF file's pages and size. It helps you try the free-version [ChatPDF](https://www.chatpdf.com/) with large-size file.
+Compress PDF file's pages and size.
 
 ## Introduction
 
